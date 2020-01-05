@@ -1,0 +1,167 @@
+
+.Fram-Div
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.Fram-StyleTitle
+{
+    font-size: 40px;
+    margin-bottom: 70px !important;
+    margin-top: 10px !important;
+    color: #e64747;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Fram-P
+{
+    line-height: 1.8;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+
+/******************** Start NavBar **********************/
+
+.navbar 
+{
+    background-color: #08526d !important;
+}
+
+.navbar .Logotitle h1
+{
+    font-size: 27px !important;
+    color: #FFF;
+    margin-top: 5px !important;
+}
+
+.navbar .nav-link
+{
+    font-size: 19px;
+    margin-left: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF !important;
+}
+
+.navbar-light .navbar-toggler 
+{
+    background-color: #FFF !important;
+}
+
+
+/****************** End NavBar *******************/
+
+
+/****************** Start Slider *******************/
+.slider .carousel-inner h1
+{
+    position: absolute;
+    color: #FFF;
+    z-index: 3;
+    font-size: 72px;
+    max-width: 800px;
+    line-height: 1.6;
+    left: 100px;   
+    right: 100px;
+    top: 170px;
+}
+
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+}
+
+.slider .NameSlider
+{
+    color: #f77070;
+}
+
+.slider .carousel-indicators li 
+{
+    height: 8px;
+    cursor: pointer;
+}
+
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.slider .carousel-item
+{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.slider .carousel-1
+{
+    background-image: url('../images/slider/M1.webp');
+}
+
+@media (min-width: 992px) and (max-width: 1999px)
+{
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 61px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .slider .carousel-inner h1
+    {
+        font-size: 60px;
+        top: 110px;
+    }
+}
+
+
+@media  (min-width: 320px) and (max-width: 575px)
+{
+    .slider .carousel-inner h1 
+    {
+        font-size: 46px;
+        /*top: 140px*/;
+        left: 30px !important;
+        right: 0px!important;
+    }
+}
+
+/****************** End   Slider *******************/
+/***************************************Start A propos de Nous***************************************/
+.StyleT
+{
+    margin-bottom: 10px !important;
+}
+/***************************************End A propos de Nous***************************************/
+.Studies
+{
+    background-color: #CCC;
+}
